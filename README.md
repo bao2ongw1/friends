@@ -1,38 +1,24 @@
-# create-svelte
+# Esonhugh Friends
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Check it out with [friends.eson.ninja](https://friends.eson.ninja)
 
-## Creating a project
+This is Esonhugh Blog friends walls.
 
-If you're seeing this, you've probably already done this step. Congrats!
+I create an skeleton-ui and tailwind css with SSR sveltekit project. 
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+And I deploy it on the Cloudflare Pages with CICD.
 
-# create a new project in my-app
-npm create svelte@latest my-app
+### Adding your site.
+
+Create Pull Request and add your site to `src/lib/PersonalData.ts` file.
+
+```json
+{
+  "alias": "Esonhugh",
+  "url": "https://eson.ninja",
+  "avatar": "https://eson.ninja/avatar.jpg",
+  "remark": "Esonhugh's Blog"
+}
 ```
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+I will approve your PR as soon as possible. And you can see your site on the friends wall after the CICD finished.
