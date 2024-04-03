@@ -8,6 +8,12 @@ export interface PersonalData {
 
 export let GlobalPool :PersonalData[] = [
     {
+      "alias": "BryanMcNulty",
+      "url": "https://bryanmcnulty.com",
+      "avatar": "https://cdn.discordapp.com/avatars/844241499859451924/1efaeff42570664c4c551ac9153481da.webp",
+      "remark": "Bryan's Blog"
+    },
+    {
       "alias": "weepingdogel",
       "url": "https://weepingdogel.github.io/",
       "avatar": "https://weepingdogel.github.io/img/photo_2021-02-15_20-22-35.png",
