@@ -163,10 +163,16 @@ export let GlobalPool :PersonalData[] = [
       "avatar": "https://www.zhaoj.in/wp-content/uploads/2016/04/1460635478e753758d45e5fb95f465e8ceaaabe897.png",
       "remark": "信息安全爱好者"
     },
-      {
+    {
       "alias": "M1n9K1n9",
       "url": "https://blog.apt250.zip/",
       "avatar": "https://blog.apt250.zip/wp-content/uploads/2023/08/ae772f0f-3eb9-2a16-62e4-c093f48b8b3b-300x300.png",
+      "remark": "信息安全爱好者"
+    },
+    {
+      "alias": "tari",
+      "url": "https://tari.moe/",
+      "avatar": "https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fb3b2453f-7b80-493b-a4f0-b825427e1921%2FIMG_0016.png?table=collection&id=b68928df-fdf1-4821-90f2-59a530d0e2e6&t=b68928df-fdf1-4821-90f2-59a530d0e2e6&width=800&cache=v2",
       "remark": "信息安全爱好者"
     },
   ]
